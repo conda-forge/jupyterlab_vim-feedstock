@@ -117,4 +117,5 @@ Feedstock Maintainers
 
 * [@asford](https://github.com/asford/)
 * [@fcollonval](https://github.com/fcollonval/)
+* [@ianhi](https://github.com/ianhi/)
 
