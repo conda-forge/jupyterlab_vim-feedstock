@@ -1,7 +1,7 @@
 About jupyterlab_vim
 ====================
 
-Home: https://github.com/axelfahy/jupyterlab-vim
+Home: https://github.com/jupyterlab-contrib/jupyterlab-vim
 
 Package license: MIT
 
@@ -116,4 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@asford](https://github.com/asford/)
+* [@fcollonval](https://github.com/fcollonval/)
 
