@@ -34,7 +34,7 @@ Installing jupyterlab_vim
 
 Installing `jupyterlab_vim` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
-```sh
+```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```

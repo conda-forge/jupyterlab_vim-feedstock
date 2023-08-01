@@ -24,7 +24,7 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
-    - jupyterlab>=4.0.0,<5
+    - jupyterlab >=4.0.0,<5
 
 test:
   imports:
