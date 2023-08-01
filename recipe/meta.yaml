@@ -17,12 +17,13 @@ build:
 
 requirements:
   host:
-    - jupyter-packaging >=0.10,<2.0
-    - jupyterlab >=3.1,<4.0
+    - hatchling>=1.5.0
+    - hatch-nodejs-version
+    - jupyterlab >=4.0,<5.0
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
