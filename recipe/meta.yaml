@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_vim" %}
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_vim-{{ version }}.tar.gz
-  sha256: 02054c0077109fe89cd51ac8e9d39f09cc593dfe808731288ff3d47425064cb8
+  sha256: b9b371d1abff313edc0f9f00c4633cc33cd81f5a60645358c36564b2ff5f81b1
   patches:
     - init.patch
 
@@ -18,7 +18,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  host:    
+  host:
     - hatch-jupyter-builder >=0.5
     - hatch-nodejs-version
     - hatchling >=1.5.0
