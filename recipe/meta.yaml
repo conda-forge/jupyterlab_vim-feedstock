@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_vim" %}
-{% set version = "4.0.3" %}
+{% set version = "4.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_vim-{{ version }}.tar.gz
-  sha256: 601b7e91f41cfcba9d922b4e7c9293571b702c718cdb45377ea8dc8275fd429a
+  sha256: 11d850ee91b2864a7b6298aae465219a822f8ccc6e01f23fa03f1ee617afe330
 
 build:
   number: 0
